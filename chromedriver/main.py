@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
+import time
 
 url = ("https://dom.ria.com/uk/search/?category=1&realty_type=0&operation=1&state_id=12&price_cur=1&wo_dupl=1&sort="
        "inspected_sort&firstIteraction=false&limit=20&market=3&excludeSold=1&type=list&city_ids="
